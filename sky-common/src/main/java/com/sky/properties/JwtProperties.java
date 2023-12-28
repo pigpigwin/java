@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ConfigurationProperties(prefix = "sky.jwt")
-@Data
+@Data  // 不用写get、set、toString、equals方法
 public class JwtProperties {
 
     /**

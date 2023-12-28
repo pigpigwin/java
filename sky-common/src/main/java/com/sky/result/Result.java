@@ -9,6 +9,7 @@ import java.io.Serializable;
  * @param <T>
  */
 @Data
+// 返回给前端的对象
 public class Result<T> implements Serializable {
 
     private Integer code; //编码：1成功，0和其它数字为失败

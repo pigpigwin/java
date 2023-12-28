@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 @Data
-@Builder
+@Builder // 原理：自动生成一个静态内部类Builder，并用在内部用build()函数构造对象
 @NoArgsConstructor
 @AllArgsConstructor
 @ApiModel(description = "员工登录返回的数据格式")
